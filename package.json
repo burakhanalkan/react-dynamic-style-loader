@@ -1,0 +1,33 @@
+{
+  "name": "react-dynamic-style-loader",
+  "version": "0.1.0",
+  "description": "Dynamic style loader component build with React",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burakhanalkan/react-dynamic-style-loader.git"
+  },
+  "keywords": [
+    "dynamic",
+    "style",
+    "loader",
+    "css",
+    "react"
+  ],
+  "author": "Burakhan Alkan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burakhanalkan/react-dynamic-style-loader/issues"
+  },
+  "homepage": "https://github.com/burakhanalkan/react-dynamic-style-loader#readme",
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "react": "^0.14.6",
+    "webpack": "^1.12.11",
+    "yargs": "^3.31.0"
+  }
+}
