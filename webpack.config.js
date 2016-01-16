@@ -13,8 +13,8 @@ module.exports = {
       'react-dynamic-style-loader': './src/index.js'
     },
     output: {
-       path: './dist',
-       filename: options.optimizeMinimize ? '[name].min.js' : '[name].js',
+       path: '.',
+       filename: options.optimizeMinimize ? 'index.min.js' : 'index.js',
        library: 'ReactDynamicStyleLoader',
        libraryTarget: 'umd'
     },
@@ -24,7 +24,7 @@ module.exports = {
         [
             {
                 test: /\.js/,
-                loader: 'babel',
+                loader: jsLoader,
                 exclude: /node_modules/
             }
         ]

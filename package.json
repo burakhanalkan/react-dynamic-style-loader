@@ -34,6 +34,6 @@
     "LICENSE",
     "README.md",
     "CHANGELOG.md",
-    "dist"
+    "index.js"
   ]
 }
