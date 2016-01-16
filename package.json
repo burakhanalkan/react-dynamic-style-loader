@@ -29,5 +29,11 @@
     "react": "^0.14.6",
     "webpack": "^1.12.11",
     "yargs": "^3.31.0"
-  }
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "dist"
+  ]
 }
